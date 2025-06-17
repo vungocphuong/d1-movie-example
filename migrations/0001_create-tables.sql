@@ -1,0 +1,8 @@
+-- Migration number: 0001 	 2025-06-17T09:41:36.043Z
+DROP TABLE IF EXISTS movies;
+CREATE TABLE movies (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	title TEXT NOT NULL,
+	release_date TEXT NOT NULL,
+	rating INT NOT NULL
+);

@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "d1-movie-example",
+	"name": "movie",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-06-17",
 	"observability": {
